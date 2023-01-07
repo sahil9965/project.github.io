@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            background-color: #cccccc;
+        }
+        table{
+            border-spacing: 0;
+        }
+        td{
+            padding: 0;
+        }
+        img{
+            border: 0;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper{
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+            padding-bottom: 40px;
+        }
+
+        .main{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            border-spacing: 0;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            row-gap: 30px;
+            padding-left: 150px;
+        }
+        .inner-c{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        .specs{
+            
+            background-image: url(dot-border.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-bottom: 10px;
+            height: 250px;
+        }
+
+        .btn{
+            background-color: #00b290; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 80px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .btn2{
+            background-color: #0e1226; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 25px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .container{ padding-left: 80px;}
+            .specs{height: 100px;}
+            .specs p{
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <center class="wrapper">
+
+        <table class="main" align="center">
+
+    <!-- banner Image -->
+            <tr>
+                <td>
+                    <a href="#"><img src="hero image.jpg" alt="" style="max-width: 100%;" width="600"></a>
+                </td>
+            </tr>
+        
+    <!-- text -->
+            <tr>
+                <td align="center">
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 600; margin-bottom: 20px; ">We're thrilled to have you onboard,<br>Niyo Global -the ultimate banking solution. </p>
+                </td>
+            </tr>
+    <!-- specs --> 
+            <tr>
+                <td align="center" class="specs">
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 600;  ">Your physical Niyo Global debit card has <br>you covered for: </p>
+                    <hr width="5%" style="border: 3px solid #00b290; margin: 10px 0 20px;">
+                    <div class="container" align="center">
+                        <div class="inner-c"> <img src="logo1.png" alt="" width="30"> Everyday use in India</div>
+                        <div class="inner-c"> <img src="logo2.png" alt="" width="30"> Purchases from international sites</div>
+                        <div class="inner-c"> <img src="logo3.png" alt="" width="30"> Shopping in stores abroad</div>
+                    </div>
+                </td>
+            </tr>
+    <!-- text-2 -->
+            <tr>
+                <td align="center">
+                    <p style="font-family: 'Poppins', sans-serif; font-weight: 600; margin-top: 20px; ">Don't limit your privileges by using the virtual card,<br> get the best of Niyo Global experience!
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <a class="btn" href="#"> Load ₹5,000 to order your<br> physical card </a>
+                    <p style="font-size: 12px;">You can use/withdraw ₹5K at any time after placing the order.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <a class="btn2" href="#"> Order Card Now </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <a href="#"><img width="30" src="fb logo.png" alt=""></a>
+                    <a href="#"><img width="30" src="Layer 4.png" alt=""></a>
+                    <a href="#"><img width="30" src="Layer 5.png" alt=""></a>
+                    <a href="#"><img width="30" src="Layer 6.png" alt=""></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <hr style="border: 3px solid #0e1226; margin: 10px 0;">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <p style="background-color: #0e1226; color: white; padding: 10px;">Get in touch with us 24x7 via in-app chat support</p>
+                </td>
+            </tr>
+                
+        </table>   
+    </center>
+</body>
+</html>
